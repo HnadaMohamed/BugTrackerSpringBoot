@@ -1,0 +1,8 @@
+Guide to start : 
+	-Create project.
+	-Add dependency.
+	-Add application context.
+	-Create Entities, DTO, Repositories.
+	-Adding JPA annotations to Entities.
+	-Create User(Service,Repo,Controller).
+	-Add Authentication Filter and generate token (Spring Security + Jwt).
