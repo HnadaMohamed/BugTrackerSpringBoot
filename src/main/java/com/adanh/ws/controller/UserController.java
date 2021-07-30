@@ -1,3 +1,8 @@
+/*
+ * Date : 30/07/2021
+ * Author : Mohamed HNADA 
+ */
+
 package com.adanh.ws.controller;
 
 import org.springframework.beans.BeanUtils;
@@ -18,8 +23,8 @@ public class UserController {
 	@Autowired
 	UserService userService;
 	
-	@PostMapping
-	public UserResponse addUsers(@RequestBody UserDTO userRequest) {
+	@PostMapping("/signUp")
+	public UserResponse signUpUsers(@RequestBody UserDTO userRequest) {
 		
 		UserDTO userDto = new UserDTO();
 		
@@ -33,5 +38,6 @@ public class UserController {
 		
 		return userResponse;
 	}
+	
 
 }

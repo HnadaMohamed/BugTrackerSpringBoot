@@ -1,3 +1,8 @@
+/*
+ * Date : 30/07/2021
+ * Author : Mohamed HNADA 
+ */
+
 package com.adanh.ws.websecurity;
 
 import java.io.IOException;
@@ -26,17 +31,18 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 	public AuthenticationFilter(AuthenticationManager authenticationManager) {
 		this.authenticationManager = authenticationManager;
 	}
-	
+	// This methode called from the addFilter in the WebSeurity
 	@Override
 	public Authentication attemptAuthentication(HttpServletRequest req, HttpServletResponse res)
 			throws AuthenticationException {
 		try {
-			// get the auth : username and password 
+			// Get the auth : username and password 
 			UserDTO user = new ObjectMapper().readValue(req.getInputStream(), UserDTO.class);
 			
-			// authenticate and check the Email and Password 
+			// Authenticate and check the Email and Password 
 			return authenticationManager.authenticate(
 					new UsernamePasswordAuthenticationToken(user.getEmail(), user.getPassword()));
+			// If the users exist and password is OK the we go to the  successfulAuthentication()
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
@@ -47,14 +53,20 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 	                                            HttpServletResponse res,
 	                                            FilterChain chain,
 	                                            Authentication auth) throws IOException, ServletException {
-		 
+		 // So the user and password are OK, we generate the token and send it back.
 		 JwtUtils jwtUtils = (JwtUtils) BugTrackerApplicationContext.getBean("jwtUtils");
 		 UserDetails userDetails = (UserDetails)auth.getPrincipal();
 	     String token = jwtUtils.generateToken(userDetails);
 	          
 	     res.addHeader(SecurityConstant.HEADER_STRING, SecurityConstant.TOKEN_PREFIX + token);
 	     
-	    } 
+	 } 
+	 
+	 @Override
+     protected void unsuccessfulAuthentication(HttpServletRequest req, 
+           HttpServletResponse res, AuthenticationException failed) throws IOException, ServletException {
+		 res.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+     }
 
 	 
 	 
