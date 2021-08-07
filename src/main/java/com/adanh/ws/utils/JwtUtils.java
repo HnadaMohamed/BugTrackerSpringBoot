@@ -13,6 +13,7 @@ import java.util.function.Function;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
+import com.adanh.ws.dto.UserDTO;
 import com.adanh.ws.websecurity.SecurityConstant;
 
 import io.jsonwebtoken.Claims;
@@ -22,8 +23,10 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Service
 public class JwtUtils {
 
-	public String generateToken(UserDetails userDetails) {
+	// You can add other information in the claims to send with the token
+	public String generateToken(UserDetails userDetails, UserDTO user) {
 		Map<String, Object> claims = new HashMap<>();
+		claims.put("fullName", user.getFirstName() +" "+ user.getLastName());
 		return createToken(claims, userDetails.getUsername());
 	}
 	

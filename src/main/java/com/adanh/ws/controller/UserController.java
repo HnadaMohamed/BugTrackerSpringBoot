@@ -5,6 +5,9 @@
 
 package com.adanh.ws.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,19 +27,20 @@ public class UserController {
 	UserService userService;
 	
 	@PostMapping("/signUp")
-	public UserResponse signUpUsers(@RequestBody UserDTO userRequest) {
+	public List<UserDTO> signUpUsers(@RequestBody UserDTO userRequest) {
 		
 		UserDTO userDto = new UserDTO();
-		
+		List<UserDTO> list = new ArrayList<>();
+	
 		BeanUtils.copyProperties(userRequest, userDto);
 		
 		UserDTO createdUser = userService.addUsers(userDto);
-		
+		list.add(createdUser);
 		UserResponse userResponse = new UserResponse();
 		
 		BeanUtils.copyProperties(createdUser, userResponse);
 		
-		return userResponse;
+		return list;
 	}
 	
 

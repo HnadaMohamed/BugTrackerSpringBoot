@@ -21,6 +21,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.adanh.ws.BugTrackerApplicationContext;
 import com.adanh.ws.dto.UserDTO;
+import com.adanh.ws.services.UserService;
 import com.adanh.ws.utils.JwtUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -55,10 +56,13 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 	                                            Authentication auth) throws IOException, ServletException {
 		 // So the user and password are OK, we generate the token and send it back.
 		 JwtUtils jwtUtils = (JwtUtils) BugTrackerApplicationContext.getBean("jwtUtils");
+		 UserService userService = (UserService) BugTrackerApplicationContext.getBean("userServiceImpl");
 		 UserDetails userDetails = (UserDetails)auth.getPrincipal();
-	     String token = jwtUtils.generateToken(userDetails);
+
+		 UserDTO user = userService.getUserByEmail(userDetails.getUsername());
+	     String token = jwtUtils.generateToken(userDetails,user);
 	          
-	     res.addHeader(SecurityConstant.HEADER_STRING, SecurityConstant.TOKEN_PREFIX + token);
+	     res.getWriter().write("{\"token\":\"" + token + "\"}");
 	     
 	 } 
 	 
