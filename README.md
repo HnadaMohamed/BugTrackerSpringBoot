@@ -26,6 +26,6 @@
         </path>
       </svg>
     </a>
-    This is the FrontEnd of the Bug Tracker Application with Angular.
+    This is the BackEnd of the Bug Tracker Application with SpringBoot and PostgreSql .
   </h3>
 </blockquote>
