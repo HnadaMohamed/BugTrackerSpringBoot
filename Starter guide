@@ -6,3 +6,10 @@ Guide to start :
 	-Adding JPA annotations to Entities.
 	-Create User(Service,Repo,Controller).
 	-Add Authentication Filter and generate token (Spring Security + Jwt).
+	
+	
+	
+	
+	
+	
+	- add log file 

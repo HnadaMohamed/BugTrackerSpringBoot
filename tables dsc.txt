@@ -1,0 +1,92 @@
+			
+			
+--	 Bug   ---------------------------------------------------------
+
+		idBug
+		titleBug
+		descBug
+		project
+		priority
+		bugType
+		state
+		documents
+		comments
+		BugHistoryies
+		developers
+		issuers
+
+--	 BugHistory   ---------------------------------------------------------
+
+		idBugHistory
+		propertyChanged
+		date
+		oldValue
+		newValue
+		bug
+		issuer
+		developer
+		project
+
+--	 BugType   ---------------------------------------------------------
+
+		idBugType
+		titleBugType
+		bugs
+		idBugType
+
+--	 Comment   ---------------------------------------------------------
+
+		idComment
+		descComment
+		bug
+
+--	 Document   ---------------------------------------------------------
+
+		idDocument
+		document
+		bug
+
+--	 Notification   ---------------------------------------------------------
+
+		idNotification
+		titleNotification
+		descNotification
+
+--	 Priority   ---------------------------------------------------------
+
+		idPriority
+		titlePriority
+		bugs
+
+		--	 Project   ---------------------------------------------------------
+
+		idProject
+		nameProject
+		descProject
+		bugs
+		bugHistoryies
+
+--	 Role  ---------------------------------------------------------
+
+		idRol
+		nameRole
+		users
+
+--	 State   ---------------------------------------------------------
+
+		idState
+		titleState
+		bugs
+
+--	 UserApp  ---------------------------------------------------------
+
+		idUser
+		firstName
+		lastName
+		email
+		password
+		role
+		issuerBugs
+		developerBugs
+		developerBugHistory
+		issuerBugHistory

@@ -31,14 +31,14 @@ public class Project implements Serializable {
 	private Set<Bug> bugs = new HashSet<>(0);
 	
 	@OneToMany(fetch = FetchType.LAZY ,mappedBy = "project")
-	private Set<BugHistory> BugHistoryies = new HashSet<>(0);	
+	private Set<BugHistory> bugHistoryies = new HashSet<>(0);	
 	
 	public Set<BugHistory> getBugHistoryies() {
-		return BugHistoryies;
+		return bugHistoryies;
 	}
 
 	public void setBugHistoryies(Set<BugHistory> bugHistoryies) {
-		BugHistoryies = bugHistoryies;
+		this.bugHistoryies = bugHistoryies;
 	}
 
 	public Set<Bug> getBugs() {

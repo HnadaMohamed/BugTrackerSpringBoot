@@ -1,0 +1,268 @@
+2021-08-09 11:10:33.913  WARN 13252 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h5m14s832ms183µs).
+2021-08-09 11:43:34.336  WARN 13252 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m59s918ms6µs100ns).
+2021-08-09 12:35:03.215  WARN 13252 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m28s407ms644µs600ns).
+2021-08-09 12:59:18.679  INFO 6516 --- [main] com.adanh.ws.BugTrackerWsApplication     : Starting BugTrackerWsApplication on DESKTOP-74SJMNM with PID 6516 (C:\Users\YZMH\Documents\GitHub\BugTrackerSpringBoot\target\classes started by YZMH in C:\Users\YZMH\Documents\GitHub\BugTrackerSpringBoot)
+2021-08-09 12:59:18.719 DEBUG 6516 --- [main] com.adanh.ws.BugTrackerWsApplication     : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-08-09 12:59:18.720  INFO 6516 --- [main] com.adanh.ws.BugTrackerWsApplication     : No active profile set, falling back to default profiles: default
+2021-08-09 12:59:21.747  INFO 6516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-09 12:59:22.028  INFO 6516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 256ms. Found 11 JPA repository interfaces.
+2021-08-09 12:59:23.397  INFO 6516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-09 12:59:23.417  INFO 6516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-09 12:59:23.418  INFO 6516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-08-09 12:59:23.740  INFO 6516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-09 12:59:23.740  INFO 6516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4874 ms
+2021-08-09 12:59:24.356  INFO 6516 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-09 12:59:24.480  INFO 6516 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 12:59:24.711  INFO 6516 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-08-09 12:59:24.715  WARN 6516 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 12:59:25.362  INFO 6516 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-09 12:59:25.364  INFO 6516 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fe2965c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5927f904, org.springframework.security.web.header.HeaderWriterFilter@7c96c85, org.springframework.web.filter.CorsFilter@3375ebd3, org.springframework.security.web.authentication.logout.LogoutFilter@5aa62ee7, com.adanh.ws.websecurity.AuthenticationFilter@40943a6, com.adanh.ws.websecurity.AuthorizationFilter@798cb6d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@413d2cd1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28e8888d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42679fc2, org.springframework.security.web.session.SessionManagementFilter@7243145f, org.springframework.security.web.access.ExceptionTranslationFilter@19dc0d32, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1213ffbc]
+2021-08-09 12:59:25.851  INFO 6516 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-09 12:59:26.211  INFO 6516 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-09 12:59:26.296  INFO 6516 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-09 12:59:26.846  INFO 6516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 12:59:26.849  INFO 6516 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-08-09 12:59:31.238  INFO 6516 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 12:59:31.254  INFO 6516 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 12:59:32.422  INFO 6516 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-09 12:59:32.444  INFO 6516 --- [main] com.adanh.ws.BugTrackerWsApplication     : Started BugTrackerWsApplication in 14.742 seconds (JVM running for 18.413)
+2021-08-09 13:03:21.136  INFO 6516 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 13:03:21.137  INFO 6516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-09 13:03:21.147  INFO 6516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-08-09 13:03:21.199 DEBUG 6516 --- [http-nio-8080-exec-2] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 13:03:27.108 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmZiIsImV4cCI6MTYyOTMyNjYyMywiaWF0IjoxNjI4NDYyNjIzLCJlbWFpbCI6ImZmIn0.Kvko_IXtGipTCTJ_A6BXF4FcnbpKPgWQORAyV2m_BFI
+2021-08-09 13:03:27.108 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmZiIsImV4cCI6MTYyOTMyNjYyMywiaWF0IjoxNjI4NDYyNjIzLCJlbWFpbCI6ImZmIn0.Kvko_IXtGipTCTJ_A6BXF4FcnbpKPgWQORAyV2m_BFI
+2021-08-09 13:03:27.186 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : ff
+2021-08-09 13:03:27.466 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : User aa-aa-aa is created
+2021-08-09 13:03:32.841 DEBUG 6516 --- [http-nio-8080-exec-6] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 13:03:33.019 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NDYxMiwiaWF0IjoxNjI4NTEwNjEyLCJlbWFpbCI6ImFhIn0.YIZuztrDlFr28gOYJPV3TQLgWJLWKlD12qd7i4P2U0U
+2021-08-09 13:03:33.020 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NDYxMiwiaWF0IjoxNjI4NTEwNjEyLCJlbWFpbCI6ImFhIn0.YIZuztrDlFr28gOYJPV3TQLgWJLWKlD12qd7i4P2U0U
+2021-08-09 13:03:33.022 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 13:05:33.228 DEBUG 6516 --- [http-nio-8080-exec-1] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 13:05:33.400 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NDczMywiaWF0IjoxNjI4NTEwNzMzLCJlbWFpbCI6ImFhIn0.Qdp_TAGt7FzLeAIP-gqFX4IZvvXAoBQ4Y7g58HK67mE
+2021-08-09 13:05:33.400 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NDczMywiaWF0IjoxNjI4NTEwNzMzLCJlbWFpbCI6ImFhIn0.Qdp_TAGt7FzLeAIP-gqFX4IZvvXAoBQ4Y7g58HK67mE
+2021-08-09 13:05:33.402 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 13:06:44.772 DEBUG 6516 --- [http-nio-8080-exec-6] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 13:06:44.965 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NDgwNCwiaWF0IjoxNjI4NTEwODA0LCJlbWFpbCI6ImFhIn0.k28qRwhnRQOwNPlZ2497MLJuuY0DA4qUgkaKqXrRvoM
+2021-08-09 13:06:44.966 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NDgwNCwiaWF0IjoxNjI4NTEwODA0LCJlbWFpbCI6ImFhIn0.k28qRwhnRQOwNPlZ2497MLJuuY0DA4qUgkaKqXrRvoM
+2021-08-09 13:06:44.968 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 13:11:48.555 DEBUG 6516 --- [http-nio-8080-exec-1] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 13:12:57.361 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NTEwOCwiaWF0IjoxNjI4NTExMTA4LCJlbWFpbCI6ImFhIn0.IiRJhQaHzs8wVlt4PotjT3jf1KwSGUa_K180arAbp0s
+2021-08-09 13:12:57.362 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3NTEwOCwiaWF0IjoxNjI4NTExMTA4LCJlbWFpbCI6ImFhIn0.IiRJhQaHzs8wVlt4PotjT3jf1KwSGUa_K180arAbp0s
+2021-08-09 13:12:57.363 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 13:54:54.776 DEBUG 6516 --- [http-nio-8080-exec-7] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 14:00:30.435 DEBUG 6516 --- [http-nio-8080-exec-10] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 14:00:46.918 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3ODAzMCwiaWF0IjoxNjI4NTE0MDMwLCJlbWFpbCI6ImFhIn0.UMxscuwtYaYPCbhXZ_tl4-ytfMOhFFX_qlZk3s-oh4U
+2021-08-09 14:00:46.919 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM3ODAzMCwiaWF0IjoxNjI4NTE0MDMwLCJlbWFpbCI6ImFhIn0.UMxscuwtYaYPCbhXZ_tl4-ytfMOhFFX_qlZk3s-oh4U
+2021-08-09 14:00:46.920 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 14:34:54.161 DEBUG 6516 --- [http-nio-8080-exec-5] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 14:35:06.105 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM4MDA5NCwiaWF0IjoxNjI4NTE2MDk0LCJlbWFpbCI6ImFhIn0.NrjqtocEkw86MDQaR3w1txx5O09sfF-q3105iPM_bak
+2021-08-09 14:35:06.105 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM4MDA5NCwiaWF0IjoxNjI4NTE2MDk0LCJlbWFpbCI6ImFhIn0.NrjqtocEkw86MDQaR3w1txx5O09sfF-q3105iPM_bak
+2021-08-09 14:35:06.107 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 18:04:13.888  WARN 6516 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m43s65ms871µs100ns).
+2021-08-09 18:51:47.746 DEBUG 6516 --- [http-nio-8080-exec-2] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 18:51:48.319 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUwNywiaWF0IjoxNjI4NTMxNTA3LCJlbWFpbCI6ImFhIn0.pKg41rp4Pw7DXXO4wsWKLAjkpbDr_oUwFqsyM0lM_3M
+2021-08-09 18:51:48.320 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUwNywiaWF0IjoxNjI4NTMxNTA3LCJlbWFpbCI6ImFhIn0.pKg41rp4Pw7DXXO4wsWKLAjkpbDr_oUwFqsyM0lM_3M
+2021-08-09 18:51:48.322 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 18:52:00.086 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUwNywiaWF0IjoxNjI4NTMxNTA3LCJlbWFpbCI6ImFhIn0.pKg41rp4Pw7DXXO4wsWKLAjkpbDr_oUwFqsyM0lM_3M
+2021-08-09 18:52:00.087 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUwNywiaWF0IjoxNjI4NTMxNTA3LCJlbWFpbCI6ImFhIn0.pKg41rp4Pw7DXXO4wsWKLAjkpbDr_oUwFqsyM0lM_3M
+2021-08-09 18:52:00.089 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 18:52:07.638 DEBUG 6516 --- [http-nio-8080-exec-8] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 18:52:07.811 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUyNywiaWF0IjoxNjI4NTMxNTI3LCJlbWFpbCI6ImFhIn0.s8hig10Fo8-YwpwwcMjUMC0SBfMbYMwCHcB_w8TYqPo
+2021-08-09 18:52:07.811 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUyNywiaWF0IjoxNjI4NTMxNTI3LCJlbWFpbCI6ImFhIn0.s8hig10Fo8-YwpwwcMjUMC0SBfMbYMwCHcB_w8TYqPo
+2021-08-09 18:52:07.813 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 18:53:03.638 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUyNywiaWF0IjoxNjI4NTMxNTI3LCJlbWFpbCI6ImFhIn0.s8hig10Fo8-YwpwwcMjUMC0SBfMbYMwCHcB_w8TYqPo
+2021-08-09 18:53:03.638 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NTUyNywiaWF0IjoxNjI4NTMxNTI3LCJlbWFpbCI6ImFhIn0.s8hig10Fo8-YwpwwcMjUMC0SBfMbYMwCHcB_w8TYqPo
+2021-08-09 18:53:03.639 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:02:17.486 DEBUG 6516 --- [http-nio-8080-exec-9] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:02:17.736 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NjEzNywiaWF0IjoxNjI4NTMyMTM3LCJlbWFpbCI6ImFhIn0.1fxq40hDw5Dxahe_JBSiC2rMkYxJGJ50pszQcNt8J4U
+2021-08-09 19:02:17.736 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NjEzNywiaWF0IjoxNjI4NTMyMTM3LCJlbWFpbCI6ImFhIn0.1fxq40hDw5Dxahe_JBSiC2rMkYxJGJ50pszQcNt8J4U
+2021-08-09 19:02:17.738 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:02:58.778 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NjEzNywiaWF0IjoxNjI4NTMyMTM3LCJlbWFpbCI6ImFhIn0.1fxq40hDw5Dxahe_JBSiC2rMkYxJGJ50pszQcNt8J4U
+2021-08-09 19:02:58.778 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5NjEzNywiaWF0IjoxNjI4NTMyMTM3LCJlbWFpbCI6ImFhIn0.1fxq40hDw5Dxahe_JBSiC2rMkYxJGJ50pszQcNt8J4U
+2021-08-09 19:02:58.780 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:43:38.656 DEBUG 6516 --- [http-nio-8080-exec-8] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:43:58.110 DEBUG 6516 --- [http-nio-8080-exec-10] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:44:11.930 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODYzOCwiaWF0IjoxNjI4NTM0NjM4LCJlbWFpbCI6ImFhIn0.PK2Gt8mrefVwouRl2gtbEmEEO_xonJumGzaP4RXj8lw
+2021-08-09 19:44:11.931 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODYzOCwiaWF0IjoxNjI4NTM0NjM4LCJlbWFpbCI6ImFhIn0.PK2Gt8mrefVwouRl2gtbEmEEO_xonJumGzaP4RXj8lw
+2021-08-09 19:44:11.933 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:44:29.132 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODYzOCwiaWF0IjoxNjI4NTM0NjM4LCJlbWFpbCI6ImFhIn0.PK2Gt8mrefVwouRl2gtbEmEEO_xonJumGzaP4RXj8lw
+2021-08-09 19:44:29.133 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODYzOCwiaWF0IjoxNjI4NTM0NjM4LCJlbWFpbCI6ImFhIn0.PK2Gt8mrefVwouRl2gtbEmEEO_xonJumGzaP4RXj8lw
+2021-08-09 19:44:29.134 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:45:24.561 DEBUG 6516 --- [http-nio-8080-exec-6] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:45:34.537 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:45:34.537 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:45:34.538 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:45:57.237 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:45:57.238 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:45:57.239 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:48:13.211 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:48:13.212 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:48:13.214 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:48:20.670 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:48:20.670 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODcyNCwiaWF0IjoxNjI4NTM0NzI0LCJlbWFpbCI6ImFhIn0.nHKXH8pxpQ3uHIo7K-ZLnPaV0au6lgGcOkq_rfAgyjA
+2021-08-09 19:48:20.671 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:48:37.815 DEBUG 6516 --- [http-nio-8080-exec-7] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:48:48.760 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:48:48.761 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:48:48.762 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:48:55.503 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:48:55.503 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:48:55.504 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:23.280 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:23.280 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:23.281 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:26.633 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:26.633 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:26.634 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:41.459 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:41.460 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:41.460 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:41.460 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:41.461 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:41.461 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:42.967 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:42.967 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:42.969 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:42.969 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:42.969 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:42.970 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:44.279 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:44.280 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:44.281 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:44.281 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:44.282 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:44.282 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:45.496 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:45.497 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:45.497 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:45.498 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:45.498 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:45.499 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:46.804 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:46.804 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:46.804 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:46.804 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODkxNywiaWF0IjoxNjI4NTM0OTE3LCJlbWFpbCI6ImFhIn0.Zbaov5Cg7cP7NNeH9mXTgGUgn94ZhpNp1BVUAgDUbIs
+2021-08-09 19:49:46.805 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:46.805 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:52.410 DEBUG 6516 --- [http-nio-8080-exec-10] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:49:52.550 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5MiwiaWF0IjoxNjI4NTM0OTkyLCJlbWFpbCI6ImFhIn0.wr-KUj8h46UOI0IV08Hes-d526x6QlQT-UomoUoaGt0
+2021-08-09 19:49:52.551 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5MiwiaWF0IjoxNjI4NTM0OTkyLCJlbWFpbCI6ImFhIn0.wr-KUj8h46UOI0IV08Hes-d526x6QlQT-UomoUoaGt0
+2021-08-09 19:49:52.552 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:52.572 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5MiwiaWF0IjoxNjI4NTM0OTkyLCJlbWFpbCI6ImFhIn0.wr-KUj8h46UOI0IV08Hes-d526x6QlQT-UomoUoaGt0
+2021-08-09 19:49:52.572 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5MiwiaWF0IjoxNjI4NTM0OTkyLCJlbWFpbCI6ImFhIn0.wr-KUj8h46UOI0IV08Hes-d526x6QlQT-UomoUoaGt0
+2021-08-09 19:49:52.573 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:59.449 DEBUG 6516 --- [http-nio-8080-exec-5] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:49:59.588 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:49:59.588 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:49:59.589 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:49:59.607 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:49:59.607 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:49:59.608 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:12.574 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:12.574 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:12.575 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:12.575 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:12.576 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:12.576 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:14.394 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:14.395 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:14.395 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:14.395 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:14.396 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:14.396 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:32.707 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:32.708 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:32.710 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:32.711 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:32.711 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:32.711 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:34.117 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:34.118 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:34.119 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:34.121 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:34.122 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:34.123 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:35.656 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:35.657 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:35.657 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:35.657 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:35.657 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:35.658 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:42.880 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:42.880 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:42.881 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:50:42.887 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:42.888 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:50:42.888 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:51:18.627 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:51:18.628 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:51:18.629 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:51:21.300 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:51:21.301 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:51:21.302 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:52:34.308 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:52:34.308 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:52:34.310 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:52:41.281 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:52:41.282 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:52:41.283 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:54:25.341 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:25.341 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:25.342 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:54:25.350 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:25.351 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:25.351 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:54:35.530 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:35.531 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:35.531 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:54:35.539 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:35.544 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:35.547 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:54:48.792 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:48.792 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5ODk5OSwiaWF0IjoxNjI4NTM0OTk5LCJlbWFpbCI6ImFhIn0.xM05Yc2CtWmDTVmA3Eg7M5zdhf1YUVh-vvlFF_dFync
+2021-08-09 19:54:48.793 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:54:48.929 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : User aa-aa-aa is created
+2021-08-09 19:54:53.061 DEBUG 6516 --- [http-nio-8080-exec-9] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 19:54:53.247 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:54:53.248 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:54:53.248 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:54:53.274 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:54:53.274 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:54:53.275 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:55:10.329 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:10.329 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:10.330 DEBUG 6516 --- [http-nio-8080-exec-4] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:55:10.801 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:10.801 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:10.802 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:55:37.859 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:37.859 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:37.860 DEBUG 6516 --- [http-nio-8080-exec-5] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:55:45.031 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:45.032 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:55:45.033 DEBUG 6516 --- [http-nio-8080-exec-9] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:56:37.179 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:56:37.179 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:56:37.180 DEBUG 6516 --- [http-nio-8080-exec-2] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 19:56:39.278 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:56:39.279 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYSIsImV4cCI6MTYyOTM5OTI5MywiaWF0IjoxNjI4NTM1MjkzLCJlbWFpbCI6ImFhIn0.OFsvUtMJqynGN1xbz6vaUaFLOnMVj5lvnqNAmdkUevk
+2021-08-09 19:56:39.279 DEBUG 6516 --- [http-nio-8080-exec-1] com.adanh.ws.controller.BaseController   : aa
+2021-08-09 20:05:04.606 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : User rr-rr-rr is created
+2021-08-09 20:05:06.990 DEBUG 6516 --- [http-nio-8080-exec-8] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 20:05:07.129 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkwNywiaWF0IjoxNjI4NTM1OTA3LCJlbWFpbCI6InJyIn0.3qVM1efQkLLhtop-Za4h4W81juR4CdY7rIb27ZP1SkI
+2021-08-09 20:05:07.130 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkwNywiaWF0IjoxNjI4NTM1OTA3LCJlbWFpbCI6InJyIn0.3qVM1efQkLLhtop-Za4h4W81juR4CdY7rIb27ZP1SkI
+2021-08-09 20:05:07.131 DEBUG 6516 --- [http-nio-8080-exec-7] com.adanh.ws.controller.BaseController   : rr
+2021-08-09 20:05:07.160 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkwNywiaWF0IjoxNjI4NTM1OTA3LCJlbWFpbCI6InJyIn0.3qVM1efQkLLhtop-Za4h4W81juR4CdY7rIb27ZP1SkI
+2021-08-09 20:05:07.160 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkwNywiaWF0IjoxNjI4NTM1OTA3LCJlbWFpbCI6InJyIn0.3qVM1efQkLLhtop-Za4h4W81juR4CdY7rIb27ZP1SkI
+2021-08-09 20:05:07.160 DEBUG 6516 --- [http-nio-8080-exec-10] com.adanh.ws.controller.BaseController   : rr
+2021-08-09 20:05:13.158 DEBUG 6516 --- [http-nio-8080-exec-1] c.a.ws.websecurity.AuthenticationFilter  : Request is to process authentication
+2021-08-09 20:05:13.302 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkxMywiaWF0IjoxNjI4NTM1OTEzLCJlbWFpbCI6InJyIn0.pwfm0IQojPsE4NQxyfL2BE8fC26zfux6OaMUM_3qpXs
+2021-08-09 20:05:13.303 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkxMywiaWF0IjoxNjI4NTM1OTEzLCJlbWFpbCI6InJyIn0.pwfm0IQojPsE4NQxyfL2BE8fC26zfux6OaMUM_3qpXs
+2021-08-09 20:05:13.304 DEBUG 6516 --- [http-nio-8080-exec-3] com.adanh.ws.controller.BaseController   : rr
+2021-08-09 20:05:13.322 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkxMywiaWF0IjoxNjI4NTM1OTEzLCJlbWFpbCI6InJyIn0.pwfm0IQojPsE4NQxyfL2BE8fC26zfux6OaMUM_3qpXs
+2021-08-09 20:05:13.322 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkxMywiaWF0IjoxNjI4NTM1OTEzLCJlbWFpbCI6InJyIn0.pwfm0IQojPsE4NQxyfL2BE8fC26zfux6OaMUM_3qpXs
+2021-08-09 20:05:13.323 DEBUG 6516 --- [http-nio-8080-exec-6] com.adanh.ws.controller.BaseController   : rr
+2021-08-09 20:05:20.476 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkxMywiaWF0IjoxNjI4NTM1OTEzLCJlbWFpbCI6InJyIn0.pwfm0IQojPsE4NQxyfL2BE8fC26zfux6OaMUM_3qpXs
+2021-08-09 20:05:20.476 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyciIsImV4cCI6MTYyOTM5OTkxMywiaWF0IjoxNjI4NTM1OTEzLCJlbWFpbCI6InJyIn0.pwfm0IQojPsE4NQxyfL2BE8fC26zfux6OaMUM_3qpXs
+2021-08-09 20:05:20.477 DEBUG 6516 --- [http-nio-8080-exec-8] com.adanh.ws.controller.BaseController   : rr

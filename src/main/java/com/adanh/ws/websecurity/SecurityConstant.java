@@ -6,7 +6,7 @@
 package com.adanh.ws.websecurity;
 
 public class SecurityConstant {
-	public static final long EXPIRATION_TIME  = 864000000;  				// Experation date of the token
+	public static final long EXPIRATION_TIME  = 864000000;  				// Experation date of the token 10 days
 	public static final String TOKEN_PREFIX  = "Bearer ";					// Prefix of the token
 	public static final String HEADER_STRING ="Authorization" ;   			// Header name
 	public static final String SINGN_UP_URL = "/users/signUp"  ;

@@ -21,6 +21,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.adanh.ws.BugTrackerApplicationContext;
 import com.adanh.ws.dto.UserDTO;
+import com.adanh.ws.entity.UserApp;
 import com.adanh.ws.services.UserService;
 import com.adanh.ws.utils.JwtUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -38,7 +39,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 			throws AuthenticationException {
 		try {
 			// Get the auth : username and password 
-			UserDTO user = new ObjectMapper().readValue(req.getInputStream(), UserDTO.class);
+			UserApp user = new ObjectMapper().readValue(req.getInputStream(), UserApp.class);
 			
 			// Authenticate and check the Email and Password 
 			return authenticationManager.authenticate(
@@ -70,6 +71,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
      protected void unsuccessfulAuthentication(HttpServletRequest req, 
            HttpServletResponse res, AuthenticationException failed) throws IOException, ServletException {
 		 res.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+		 res.getWriter().write("Incorrect Email or Password");
      }
 
 	 

@@ -26,7 +26,7 @@ public class JwtUtils {
 	// You can add other information in the claims to send with the token
 	public String generateToken(UserDetails userDetails, UserDTO user) {
 		Map<String, Object> claims = new HashMap<>();
-		claims.put("fullName", user.getFirstName() +" "+ user.getLastName());
+		claims.put("email", user.getEmail());
 		return createToken(claims, userDetails.getUsername());
 	}
 	
@@ -61,7 +61,8 @@ public class JwtUtils {
 				.setClaims(claims)
 				.setSubject(username)
 				.setIssuedAt(new Date(System.currentTimeMillis()))
-				.setExpiration(new Date(System.currentTimeMillis()+1000*60*60)).signWith(SignatureAlgorithm.HS256, SecurityConstant.TOKEN_SECRET).compact();
+				.setExpiration(new Date(System.currentTimeMillis() + SecurityConstant.EXPIRATION_TIME))
+				.signWith(SignatureAlgorithm.HS256, SecurityConstant.TOKEN_SECRET).compact();
 	}
 	
 	

@@ -28,19 +28,15 @@ public class UserServiceImpl implements UserService{
 	BCryptPasswordEncoder bCriptPassswordEncoder;
 	
 	@Override
-	public UserDTO addUsers(UserDTO userDTO) {
-		
-		UserApp userEntity = new UserApp();
-		
-		BeanUtils.copyProperties(userDTO, userEntity);
+	public UserDTO addUsers(UserApp userReq	) {
 			
-		UserApp userExisted = userRepository.findByEmail(userEntity.getEmail());
+		UserApp userExisted = userRepository.findByEmail(userReq.getEmail());
 		
 		if(userExisted!=null) { throw new RuntimeException("User Duplicated");}
 		
-		userEntity.setPassword(bCriptPassswordEncoder.encode(userEntity.getPassword()));
+		userReq.setPassword(bCriptPassswordEncoder.encode(userReq.getPassword()));
 		
-		UserApp userCreated = userRepository.save(userEntity);
+		UserApp userCreated = userRepository.save(userReq);
 		
 		UserDTO createdUserDTO = new UserDTO();
 		

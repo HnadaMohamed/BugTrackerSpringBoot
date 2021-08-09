@@ -3,14 +3,14 @@ package com.adanh.ws.dto;
 
 public class UserDTO {
 	
+	private Long idUser;
+	
 	private String firstName;
 	
 	private String lastName;
 	
 	private String email;
-	
-	private String password;
-	
+		
 	
 	public String getFirstName() {
 		return firstName;
@@ -28,14 +28,6 @@ public class UserDTO {
 		this.lastName = lastName;
 	}
 
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
 	public String getEmail() {
 		return email;
 	}
@@ -46,7 +38,15 @@ public class UserDTO {
 
 	@Override
 	public String toString() {
-		return getFirstName() + "-" + getLastName() + "-" + getEmail() + "-" + getPassword() + " ";
+		return getFirstName() + "-" + getLastName() + "-" + getEmail();
+	}
+
+	public Long getIdUser() {
+		return idUser;
+	}
+
+	public void setIdUser(Long idUser) {
+		this.idUser = idUser;
 	}
 	
 }

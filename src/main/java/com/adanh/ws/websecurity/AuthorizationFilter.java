@@ -13,14 +13,20 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 
+import com.adanh.ws.controller.BaseController;
+
 import io.jsonwebtoken.Jwts;
 
 public class AuthorizationFilter extends BasicAuthenticationFilter {
+
+	Logger logger = LoggerFactory.getLogger(BaseController.class);
 
 	public AuthorizationFilter(AuthenticationManager authenticationManager) {
 		super(authenticationManager);
@@ -49,23 +55,21 @@ public class AuthorizationFilter extends BasicAuthenticationFilter {
 		String token = request.getHeader(SecurityConstant.HEADER_STRING);
         
         if (token != null) {
-            
+        	logger.debug(token);
             token = token.replace(SecurityConstant.TOKEN_PREFIX, "");
-            
+            logger.debug(token);
             String user = Jwts.parser()
                     .setSigningKey( SecurityConstant.TOKEN_SECRET )
                     .parseClaimsJws( token )
                     .getBody()
                     .getSubject();
-            
             if (user != null) {
+            	logger.debug(user.toString());
 				return new UsernamePasswordAuthenticationToken(user, null, new ArrayList<>());
             }
-            
             return null;
 		}
-
-		return null;
+        return null;
 	}
 
 }

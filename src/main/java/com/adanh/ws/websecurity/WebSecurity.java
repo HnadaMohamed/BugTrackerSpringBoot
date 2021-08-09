@@ -35,8 +35,8 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 		.antMatchers(HttpMethod.POST , SecurityConstant.SINGN_UP_URL).permitAll() // SIGNUP : Authorise addition of new users, We go directly to the UserController then 
 		.anyRequest().authenticated()
 		.and()
-		.addFilter(getAuthenticationFilter());   // SIGNIN :Checking the Login and Password and call teh attemptAuthentication() in AuthenticationFilter
-		
+		.addFilter(getAuthenticationFilter())   // SIGNIN :Checking the Login and Password and call teh attemptAuthentication() in AuthenticationFilter
+		.addFilter(new AuthorizationFilter(authenticationManager()));
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 	
 	protected AuthenticationFilter getAuthenticationFilter() throws Exception {
 		AuthenticationFilter filter = new AuthenticationFilter(authenticationManager());
-		filter.setFilterProcessesUrl(SecurityConstant.SINGN_IN_URL); // change the "login" url to the new one , by default in SptingSecurity its  "/login"
+		filter.setFilterProcessesUrl(SecurityConstant.SINGN_IN_URL); // change the "login" url to the new one , by default in SpringSecurity its  "/login"
 		return filter;
 	}
 	
